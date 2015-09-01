@@ -15,7 +15,7 @@ This is a simple workflow for [Alfred](https://www.alfredapp.com/) that lets you
 
 ## Installation
 
-* Download workflow from releases page
+* Download workflow from [releases page](https://github.com/leonid-shevtsov/log-accomplishments-alfredworkflow/releases)
 * Double-click to install into Alfred
 * Open alfred and set your log file with command `log-to-file [path-to-file]`
 
