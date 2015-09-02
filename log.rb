@@ -35,7 +35,7 @@ if log[0] == date_line
   insertion_point = (log[2..-1].find_index("\n") || -3) + 2
   log.insert(insertion_point, message_line)
 else
-  log.unshift(date_line, "\n", message_line)
+  log.unshift(date_line, "\n", message_line, "\n")
 end
 
 File.open(logfile, "w") { |f| f.puts(log.join) }
